@@ -27,7 +27,7 @@ namespace TVLICT201.JSONReader.Windows
 
         private void btnEmployee_Click(object sender, RoutedEventArgs e)
         {
-            Employee.Employee employeeWindow = new Employee.Employee();
+            Employee.EmployeeWindow employeeWindow = new Employee.EmployeeWindow();
             employeeWindow.Show();
         }
     }
